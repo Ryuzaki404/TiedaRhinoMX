@@ -36,6 +36,8 @@ footer{
 	}
 }
 
+
+/* cabecera */
 #miDiv{
     position: absolute;
 }
@@ -161,189 +163,14 @@ ul{
     transition: 150ms;
     color: #ffff;
 }
+/* cabecera */
 
-.Fil1 img:hover{
-    cursor: pointer;
-    background-color: rgb(37, 36, 36);
-    transform: scale(1.05);
-    transition: 2ms;
+.galeria{
+    margin: 4em 8%;
 }
-.Fil2 img:hover{
-    cursor: pointer;
-    background-color: rgb(37, 36, 36);
-    transform: scale(1.05);
-    transition: 2ms;
+.videos iframe{
+    margin: 1em 10px;
 }
-.titulos h2{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.3em;
-}
-.titulos h4{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    font-weight: bold;
-    color: rgb(225, 233, 74);
-    padding: 0.8em;
-}
-.titulos p{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    margin-top: 20px;
-}
-.titulos h4{
-    font-size: 18px;
-}
-
-.d-block{
-    border-radius: 10px;
-}
-
-.col img:hover{
-    transform: 1.5;
-    transition: 1s;
-}
-.cont-boton{
-    width: 1200px;
-}
-.boton{
-    margin: 0 50%;
-    width: 100px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: #88888888;
-}
-.ContenidoIn{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-.ContenidoIn img{
-    width: 50px;
-    margin-bottom: 1em;
-}
-.ContenidoIn h3{
-    font-size: 25px;
-}
-.ContenidoIn span{
-    font-size: 15px;
-}
-
-.Fil1 img, .Fil2 img{
-    width: 200px;
-    border-radius: 10px;
-    
-}
-
-.Cat1 img:hover{
-    cursor: pointer;
-    background-color: rgb(37, 36, 36);
-    transform: scale(1.1);
-    transition: 10ms;
-}
-.Cat2 img:hover{
-    cursor: pointer;
-    background-color: rgb(37, 36, 36);
-    transform: scale(1.1);
-    transition: 10ms;
-}
-.Cat1 img, .Cat2 img{
-    width: 150px;
-    border-radius: 10px;
-}
-
-/*FORMULARIO*/
-.rec1{
-    background-image: url('Recursos/usuario.png');
-    background-repeat: no-repeat;
-    background-position: 4px center;
-    background-size: 20px;
-    background-color: rgb(234, 237, 239);
-    display: flex;
-    align-items: center;
-    max-width: 50%;
-    padding-left: 28px;
-    height: 40px;
-    border: 1px solid rgb(234, 237, 239);
-    border-radius: 3px;
-    margin-bottom: -5em;
-}
-.rec1 input {
-    width: 200%;
-    font-size: 0.9em;
-    border: none;
-    background-color: rgb(234, 237, 239);
-}
-.rec1 input:focus {
-    outline: none;
-}
-
-.rec2{
-    background-image: url('Recursos/correo-electronico.png');
-    background-repeat: no-repeat;
-    background-position: 4px center;
-    background-size: 20px;
-    background-color: rgb(234, 237, 239);
-    display: flex;
-    align-items: center;
-    max-width: 50%;
-    padding-left: 28px;
-    height: 40px;
-    border: 1px solid rgb(234, 237, 239);
-    border-radius: 3px;
-}
-.rec2 input {
-    width: 200%;
-    font-size: 0.9em;
-    border: none;
-    background-color: rgb(234, 237, 239);
-    
-}
-.rec2 input:focus {
-    outline: none;
-}
-
-.rec3{
-    background-image: url('Recursos/llamada-telefonica.png');
-    background-repeat: no-repeat;
-    background-position: 4px center;
-    background-size: 20px;
-    background-color: rgb(234, 237, 239);
-    display: flex;
-    align-items: center;
-    width: 105%;
-    padding-left: 28px;
-    height: 40px;
-    border: 1px solid rgb(234, 237, 239);
-    border-radius: 3px;
-    flex-grow: initial;
-}
-.rec3 input {
-    width: 200%;
-    font-size: 0.9em;
-    border: none;
-    background-color: rgb(234, 237, 239);;
-    
-}
-.rec3 input:focus {
-    outline: none;
-}
-.f1{
-    gap: 1em;
-    height: 3.90em;
-}
-
-textarea{
-    background-color: rgb(234, 237, 239);
-    border: solid 1px rgb(234, 237, 239);
-}
-/*FORMULARIO*/
 
 /* FOOTER ESTILOS */
 hr{
