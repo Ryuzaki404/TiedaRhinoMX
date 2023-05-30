@@ -1,0 +1,368 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    margin-top: 1em;
+}
+
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+
+.barra-logo{
+    width: 1350px;
+    height: 130px;
+    margin: 1em auto;
+    padding: 0;
+}
+
+.bloque{
+    width: 30%;
+    height: 90px;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto 1.5%;
+}
+
+#rhino{
+    width: 300px;
+    border-radius: 10px;
+    margin: 1% 5%;
+    display: inline-block;
+}
+#barra-bus{
+    width: 200px;
+    height: 40px;
+    margin: 10px 0%;
+    background-image: url('Recursos/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    background-color: rgb(234, 237, 239);
+    border: 1px solid rgb(234, 237, 239);
+    padding-left: 28px;
+    border-radius: 3px;
+    vertical-align: middle ;
+    display: inline-block;
+
+}
+.ico{
+    display: inline-block;
+    height: 40px;
+    margin: 0px 5%;
+    width: 30%;
+    vertical-align: middle ;
+}
+.ico img{
+    display: inline-block;
+    width: 25px;
+    margin: 5% 10%;
+}
+
+.user-2{
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    vertical-align: middle;
+}
+
+
+
+.user-2 hr{
+    height:20px;
+    max-width: 5px;
+    width:1px;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+    margin: 0em;
+}     
+
+#logoRhino{
+    border-radius: 5px;
+    margin-left: 20%;
+}
+
+.Enc li{
+    list-style-type: none;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: #f6f7fa;
+    padding: 1em;
+    border-radius: 10px;
+}
+ul{
+    gap: 0.5em;
+}
+.container div{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+ul{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.Enc li:hover{
+    cursor: pointer;
+    background-color: rgb(37, 36, 36);
+    transform: scale(1.1);
+    transition: 110ms;
+    color: #ffff;
+}
+
+.titulos h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.3em;
+}
+.titulos h4{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(225, 233, 74);
+    padding: 0.8em;
+}
+.titulos p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.titulos h4{
+    font-size: 18px;
+}
+
+.d-block{
+    border-radius: 10px;
+}
+
+.col img:hover{
+    transform: 1.5;
+    transition: 1s;
+}
+
+.ContenidoIn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.ContenidoIn img{
+    width: 50px;
+    margin-bottom: 1em;
+}
+.ContenidoIn h3{
+    font-size: 25px;
+}
+.ContenidoIn span{
+    font-size: 15px;
+}
+
+.Fil1 img, .Fil2 img{
+    width: 200px;
+    border-radius: 10px;
+    
+}
+
+.Cat1 img, .Cat2 img{
+    width: 150px;
+    border-radius: 10px;
+}
+.tituloContacto{
+    width: 1150px;
+}
+.tituloContacto h1{
+    margin: 2em 20%;
+}
+
+#tituloCatalogo{
+    font-weight: bolder;
+    margin: 2em 60%;
+}
+.contCatalogo{
+    width: 1150px;
+}
+.catalogoo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2em 20%;
+}
+.catalogoo img{
+    width: 60%;
+    border-radius: 5px;
+}
+.catalogoo a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 110ms;
+}
+
+
+/*FORMULARIO*/
+.rec1{
+    background-image: url('Recursos/usuario.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    background-color: rgb(234, 237, 239);
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    padding-left: 28px;
+    height: 40px;
+    border: 1px solid rgb(234, 237, 239);
+    border-radius: 3px;
+    margin-bottom: -5em;
+}
+.rec1 input {
+    width: 200%;
+    font-size: 0.9em;
+    border: none;
+    background-color: rgb(234, 237, 239);
+}
+.rec1 input:focus {
+    outline: none;
+}
+
+.rec2{
+    background-image: url('Recursos/correo-electronico.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    background-color: rgb(234, 237, 239);
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    padding-left: 28px;
+    height: 40px;
+    border: 1px solid rgb(234, 237, 239);
+    border-radius: 3px;
+}
+.rec2 input {
+    width: 200%;
+    font-size: 0.9em;
+    border: none;
+    background-color: rgb(234, 237, 239);
+    
+}
+.rec2 input:focus {
+    outline: none;
+}
+
+.rec3{
+    background-image: url('Recursos/llamada-telefonica.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    background-color: rgb(234, 237, 239);
+    display: flex;
+    align-items: center;
+    width: 105%;
+    padding-left: 28px;
+    height: 40px;
+    border: 1px solid rgb(234, 237, 239);
+    border-radius: 3px;
+    flex-grow: initial;
+}
+.rec3 input {
+    width: 200%;
+    font-size: 0.9em;
+    border: none;
+    background-color: rgb(234, 237, 239);;
+    
+}
+.rec3 input:focus {
+    outline: none;
+}
+.f1{
+    gap: 1em;
+    height: 3.90em;
+}
+
+textarea{
+    background-color: rgb(234, 237, 239);
+    border: solid 1px rgb(234, 237, 239);
+}
+/*FORMULARIO*/
+
+/* FOOTER ESTILOS */
+hr{
+    border: solid 1.5px black;
+}
+.ConsultaInf li{
+    list-style-type: none;
+    line-height: 1.8;
+    
+}
+.ConsultaInf ul{
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    padding: 0;
+    gap: 1em;
+}
+.filaOP span{
+    margin: 2em auto;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.filaOP a{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(90deg, black, rgb(0, 0, 0), rgb(9, 9, 9));
+    background-position: left bottom;
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition: background-size 300ms ease-in-out;
+}
+.filaOP a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-size: 100% 2px;
+
+}
+.filaOP{
+    gap: 2em;
+    max-width: 100%;
+}
+
+#suscribete{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/* FOOTER ESTILOS */
