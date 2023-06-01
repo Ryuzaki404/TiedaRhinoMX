@@ -1,12 +1,10 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header{
     margin-top: 1em;
 }
-
-
 .btn-wsp{
     position:fixed;
     width:60px;
@@ -33,6 +31,7 @@ header{
         line-height: 66px;
 	}
 }
+
 
 .barra-logo{
     width: 1350px;
@@ -206,45 +205,98 @@ ul{
 .ContenidoIn span{
     font-size: 15px;
 }
-
-.Fil1 img, .Fil2 img{
-    width: 200px;
-    border-radius: 10px;
-    
+#tituloapartado{
+    margin: 1em 40%;
+    font-weight: bold;
+}
+#cantidadArticulos{
+    margin: 3em 1em;
 }
 
-.Cat1 img, .Cat2 img{
-    width: 150px;
-    border-radius: 10px;
+#chec{
+    margin: 0 0;
 }
 
-
-#tituloCatalogo{
-    font-weight: bolder;
-    margin: 2em 20%;
-    text-align: center;
+.precioArticulo{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
 }
 
-.catalogoo{
-    margin: 2em 6%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-.catalogoo img{
-    width: 60%;
-    border-radius: 5px;
-}
-.catalogoo a:hover{
-    cursor: pointer;
+#productoTar:hover{
     transform: scale(1.1);
-    transition: 110ms;
+    transition: 100ms;
+    cursor: pointer;
+}
+
+#precio1{
+    width: 100;
+    height: 50px;
+    border-radius: 5px;
+    background: #88888888;
+    border: #88888888;
+    color: #FFF;
+    margin: 5px 0;
+}
+#precio2{
+    width: 100;
+    height: 50px;
+    border-radius: 5px;
+    background: #88888888;
+    border: #88888888;
+    color: #FFF;
+    margin: 5px 0;
+}
+
+.contenedorAmasadoras{
+    display: grid;
+    grid-template-columns: repeat(3, 300px 950px 200px);
+}
+.amasadorasInfo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#productoTar{
+    width: 250px;
+    height: 200px;
+    margin: 2em 2em;
+}
+#botonTar:hover{
+    transform: scale(1.1);
+    transition: 100ms;
+    cursor: pointer;
+}
+#canasta{
+    width: 20px;
+}
+.tarjeta{
+    text-align: center;
+    margin: 0 1em;
+}
+.tarjeta button{
+    width: 80%;
+    height: 80px;
+    border-radius: 10px;
+    background: #ece511;
+    border: solid 1px #ece511;
+    font-size: 17px;
+    font-weight: bolder;
+}
+#textotar{
+    margin:1px 0;
+}
+#precios1{
+    margin-top: 10px;
+    text-decoration: line-through;
+}
+#precios2{
+    margin-top: -20px;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 
 /* FOOTER ESTILOS */
-footer{
-    margin-top: 10em;
-}
 hr{
     border: solid 1.5px black;
 }
@@ -261,7 +313,7 @@ hr{
     gap: 1em;
 }
 .filaOP span{
-    margin: 2em auto;
+    margin-bottom: 2em;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -283,7 +335,6 @@ hr{
 .filaOP{
     gap: 2em;
     max-width: 100%;
-    margin-top: 5em;
 }
 
 #suscribete{
