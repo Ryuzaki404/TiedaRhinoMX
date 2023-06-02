@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header{
@@ -32,6 +32,10 @@ header{
 	}
 }
 
+#miDiv{
+    position: absolute;
+}
+
 .barra-logo{
     width: 1350px;
     height: 130px;
@@ -50,13 +54,13 @@ header{
 #rhino{
     width: 300px;
     border-radius: 10px;
-    margin: 1% 5%;
+    margin: 0 5%;
     display: inline-block;
 }
 #barra-bus{
     width: 200px;
     height: 40px;
-    margin: 10px 0%;
+    margin: -50% 0%;
     background-image: url('Recursos/lupa.png');
     background-repeat: no-repeat;
     background-position: 4px center;
@@ -69,17 +73,26 @@ header{
     display: inline-block;
 
 }
+#usu{
+    position: absolute;
+    margin: -1.7em 20%;
+}
+#comp{
+    position: absolute;
+    margin: -1.7em 70%;
+}
 .ico{
     display: inline-block;
     height: 40px;
-    margin: 0px 5%;
+    margin: -15% 5%;
     width: 30%;
-    vertical-align: middle ;
+    vertical-align: top ;
+    position: relative;
 }
 .ico img{
     display: inline-block;
     width: 25px;
-    margin: 5% 10%;
+
 }
 
 .user-2{
@@ -90,7 +103,6 @@ header{
     justify-items: center;
     vertical-align: middle;
 }
-
 
 
 .user-2 hr{
@@ -107,7 +119,9 @@ header{
     border-radius: 5px;
     margin-left: 20%;
 }
-
+#nave{
+    margin: 0 1em;
+}
 .Enc li{
     list-style-type: none;
     justify-content:center;
@@ -130,11 +144,17 @@ ul{
     text-align: center;
 }
 
+.enlacescab{
+    width: 24%;
+    text-decoration: none;
+    color: #000;
+}
+
 .Enc li:hover{
     cursor: pointer;
     background-color: rgb(37, 36, 36);
     transform: scale(1.1);
-    transition: 110ms;
+    transition: 150ms;
     color: #ffff;
 }
 
@@ -213,12 +233,10 @@ ul{
 .tituloContacto h1{
     margin: 2em 20%;
 }
-.contactanos{
-    width: 1150px;
-}
+
 .contenidoContacto{
     width: 650px;
-    margin: 4em 40%;
+    margin: 4em 25%;
     font-size: 20px;
     font-style: unset;
     justify-content: center;
