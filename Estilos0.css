@@ -387,9 +387,19 @@ hr{
 }
 
 #suscribete{
-    width: 300px;
+    width: 200px;
     height: 40px;
-    border-radius: 5px;
+    margin: -50% 0%;
+    background-image: url('Recursos/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    background-color: rgb(234, 237, 239);
+    border: 1px solid rgb(234, 237, 239);
+    padding-left: 28px;
+    border-radius: 3px;
+    vertical-align: middle ;
+    display: inline-block;
 }
 
 #miDiv {

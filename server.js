@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 app.use(express.static('public'));
 
-const YOUR_DOMAIN = 'http://localhost:4242';
+const YOUR_DOMAIN = 'http://localhost:3000';
 
 app.post('/create-checkout-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
@@ -15,6 +15,52 @@ app.post('/create-checkout-session', async (req, res) => {
         quantity: 1,
       },
     ],
+    shipping_address_collection: {
+      allowed_countries: ['MX'],
+    },
+    shipping_options: [
+      {
+        shipping_rate_data: {
+          type: 'fixed_amount',
+          fixed_amount: {
+            amount: 0,
+            currency: 'usd',
+          },
+          display_name: 'Free shipping',
+          delivery_estimate: {
+            minimum: {
+              unit: 'business_day',
+              value: 5,
+            },
+            maximum: {
+              unit: 'business_day',
+              value: 7,
+            },
+          },
+        },
+      },
+      {
+        shipping_rate_data: {
+          type: 'fixed_amount',
+          fixed_amount: {
+            amount: 1500,
+            currency: 'usd',
+          },
+          display_name: 'Next day air',
+          delivery_estimate: {
+            minimum: {
+              unit: 'business_day',
+              value: 1,
+            },
+            maximum: {
+              unit: 'business_day',
+              value: 1,
+            },
+          },
+        },
+      },
+    ],
+    
     mode: 'payment',
     success_url: `${YOUR_DOMAIN}/success.html`,
     cancel_url: `${YOUR_DOMAIN}/cancel.html`,
@@ -23,5 +69,5 @@ app.post('/create-checkout-session', async (req, res) => {
   res.redirect(303, session.url);
 });
 
-app.listen(4242, () => console.log('Running on port 4242'));
+app.listen(3000, () => console.log('Running on port 3000'));
 
