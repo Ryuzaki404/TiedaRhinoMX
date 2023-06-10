@@ -210,8 +210,9 @@ ul{
     font-weight: bold;
     text-align: center;
 }
-.politicas p, ol{
-    margin: 2em 20%;
+.politicas p, ol, ul{
+    margin: 2em 15%;
+    text-align: left;
 }
 
 

@@ -234,6 +234,10 @@ ul{
 .ContenidoIn span{
     font-size: 15px;
 }
+.ContenidoIn a{
+    text-decoration: none;
+    color: #000;
+}
 
 .Fil1 img, .Fil2 img{
     width: 200px;
