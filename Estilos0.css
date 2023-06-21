@@ -415,7 +415,7 @@ hr{
         display: block;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .barra-logo{
         margin: 2em 2%;
         width: 200px;
