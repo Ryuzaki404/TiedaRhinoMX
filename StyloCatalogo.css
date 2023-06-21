@@ -226,7 +226,7 @@ ul{
 }
 
 .catalogoo{
-    margin: 2em 6%;
+    margin: 2em 10%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
