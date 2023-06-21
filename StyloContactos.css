@@ -381,3 +381,51 @@ hr{
 }
 
 /* FOOTER ESTILOS */
+
+@media screen and (max-width: 1235px) {
+    #miDiv {
+        display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .barra-logo{
+        margin: 2em 10%;
+        width: 200px;
+    }
+    #rhino{
+        width: 200px;
+    }
+    .menu-ple ul{
+        list-style: none;
+    }
+    .menu-ple a{
+        text-decoration: none;
+    }
+    .menu-ple li{
+        background: #f8e703;
+        color: #000000;
+        width: 100%;
+        height: 50px;
+        margin: 1em -5%;
+        text-align: center;
+        font-size: 25px;
+    }
+    .btn{
+        position: fixed;
+    }
+    .tituloContacto{
+        margin: 0 -30%;
+    }
+    .contenidoContacto{
+        width: 100%;
+        margin: 2em 2%;
+    }
+}
+.ocultar{
+    display: block;
+}
+@media screen and (max-width: 1235px) {
+    .ocultar {
+        display: None;
+    }
+}

@@ -417,7 +417,7 @@ hr{
 }
 @media screen and (max-width: 600px) {
     .barra-logo{
-        margin: 2em 2%;
+        margin: 2em 10%;
         width: 200px;
     }
     #rhino{
