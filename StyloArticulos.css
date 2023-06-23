@@ -394,8 +394,6 @@ hr{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: 0 0;
-        grid-area: 3em;
     }
     .tarjeta{
         width: 150px;
@@ -403,6 +401,9 @@ hr{
     }
     #productoTar{
         margin: 0 auto;
+    }
+    main{
+        overflow-x: hidden;
     }
 
 }
