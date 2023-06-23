@@ -206,8 +206,10 @@ ul{
     font-size: 15px;
 }
 #tituloapartado{
-    margin: 1em 45%;
+    width: 400px;
+    margin: 1em 37%;
     font-weight: bold;
+    text-align: center;
 }
 #cantidadArticulos{
     margin: 3em 1em;
@@ -362,6 +364,10 @@ hr{
     #rhino{
         width: 200px;
     }
+    #tituloapartado{
+        width: 150px;
+        text-align: center;
+    }
     .menu-ple ul{
         list-style: none;
     }
@@ -382,14 +388,21 @@ hr{
     }
     #tituloapartado{
         margin: 0 35%;
+        text-align: center;
     }
     .articuloInfo{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 0 0;
+        grid-area: 3em;
     }
     .tarjeta{
-        width: 200px;
+        width: 150px;
+        margin: 0 1em;
+    }
+    #productoTar{
+        margin: 0 auto;
     }
 
 }
