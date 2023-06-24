@@ -318,8 +318,11 @@ hr{
     }
 }
 @media screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
     .barra-logo{
-        margin: 2em 18%;
+        margin: 2em 6%;
         width: 200px;
     }
     #rhino{
@@ -344,7 +347,7 @@ hr{
         position: fixed;
     }
     #tituloapartado{
-        margin: 0 40%;
+        margin: 0 35%;
         font-weight: bolder;
     }
     .contenedorOps{
@@ -352,7 +355,7 @@ hr{
         grid-template-columns: repeat(2, 1fr);
     }
     .apartado{
-        width: 200px;
+        width: 150px;
         margin: 0 5%;
     }
 

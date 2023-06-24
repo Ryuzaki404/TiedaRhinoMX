@@ -277,15 +277,20 @@ hr{
 }
 
 /* FOOTER ESTILOS */
-
+#miDiv {
+    display: none;
+}
 @media screen and (max-width: 1235px) {
     #miDiv {
         display: block;
     }
 }
 @media screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
     .barra-logo{
-        margin: 0 15%;
+        margin: 0 6%;
         width: 200px;
     }
     #rhino{

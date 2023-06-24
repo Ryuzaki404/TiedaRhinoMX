@@ -369,6 +369,9 @@ hr{
     }
 }
 @media screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
     .barra-logo{
         margin: 2em 8%;
         width: 200px;

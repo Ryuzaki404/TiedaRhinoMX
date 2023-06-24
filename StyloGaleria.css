@@ -218,15 +218,20 @@ hr{
     height: 40px;
     border-radius: 5px;
 }
-
+#miDiv {
+    display: none;
+}
 @media screen and (max-width: 1235px) {
     #miDiv {
         display: block;
     }
 }
 @media screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
     .barra-logo{
-        margin: 2em 10%;
+        margin: 2em 8%;
         width: 200px;
     }
     #rhino{

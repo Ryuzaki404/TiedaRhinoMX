@@ -295,6 +295,9 @@ body{
 }
 
 @media screen and (max-width: 412px) {
+    body{
+        overflow-x: hidden;
+    }
     header {
         max-width: 412px;
 

@@ -381,6 +381,9 @@ hr{
 }
 
 /* FOOTER ESTILOS */
+#miDiv {
+    display: none;
+}
 
 @media screen and (max-width: 1235px) {
     #miDiv {
@@ -388,8 +391,11 @@ hr{
     }
 }
 @media screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
     .barra-logo{
-        margin: 2em 10%;
+        margin: 2em 8%;
         width: 200px;
     }
     #rhino{
