@@ -311,6 +311,29 @@ hr{
 #miDiv {
     display: none;
 }
+#ti-foot{
+    margin: 1em 0;
+    font-weight: bolder;
+    font-size: 23px;
+}
+#suscribete{
+    width: 20em;
+    height: 40px;
+    margin: -50% 0%;
+    background-image: url('Recursos/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    background-color: rgb(234, 237, 239);
+    border: 1px solid rgb(234, 237, 239);
+    padding-left: 28px;
+    border-radius: 3px;
+    vertical-align: middle ;
+    display: inline-block;
+}
+#text-bajo{
+    margin-top: 1em;
+}
 
 @media screen and (max-width: 1235px) {
     #miDiv {

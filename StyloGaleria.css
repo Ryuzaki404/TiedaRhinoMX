@@ -161,12 +161,19 @@ ul{
     color: #ffff;
 }
 /* cabecera */
-
+#titulog{
+    text-align: center;
+    margin: 2em 0;
+}
 .galeria{
     margin: 4em 8%;
 }
-.videos iframe{
-    margin: 1em 10px;
+.galeria iframe{
+    margin: 1em 2em;
+}
+
+.mediav video{
+    width: 300px;
 }
 
 /* FOOTER ESTILOS */
@@ -218,6 +225,29 @@ hr{
 #miDiv {
     display: none;
 }
+#ti-foot{
+    margin: 1em 0;
+    font-weight: bolder;
+    font-size: 23px;
+}
+#suscribete{
+    width: 20em;
+    height: 40px;
+    margin: -50% 0%;
+    background-image: url('Recursos/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    background-color: rgb(234, 237, 239);
+    border: 1px solid rgb(234, 237, 239);
+    padding-left: 28px;
+    border-radius: 3px;
+    vertical-align: middle ;
+    display: inline-block;
+}
+#text-bajo{
+    margin-top: 1em;
+}
 @media screen and (max-width: 1235px) {
     #miDiv {
         display: block;
@@ -226,6 +256,10 @@ hr{
 @media screen and (max-width: 600px) {
     main{
         overflow-x: hidden;
+    }
+    #titulog{
+        text-align: center;
+        margin: 0 6%;
     }
     .barra-logo{
         margin: 2em 8%;

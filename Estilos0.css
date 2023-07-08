@@ -387,8 +387,16 @@ hr{
     max-width: 100%;
 }
 
+#miDiv {
+    display: none;
+}
+#ti-foot{
+    margin: 1em 0;
+    font-weight: bolder;
+    font-size: 23px;
+}
 #suscribete{
-    width: 200px;
+    width: 20em;
     height: 40px;
     margin: -50% 0%;
     background-image: url('Recursos/lupa.png');
@@ -402,9 +410,8 @@ hr{
     vertical-align: middle ;
     display: inline-block;
 }
-
-#miDiv {
-    display: none;
+#text-bajo{
+    margin-top: 1em;
 }
 
 @media screen and (max-width: 1235px) {
