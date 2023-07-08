@@ -286,6 +286,9 @@ hr{
     .btn{
         position: fixed;
     }
+    .mediav{
+        margin: 0 7%;
+    }
 }
 .ocultar{
     display: block;

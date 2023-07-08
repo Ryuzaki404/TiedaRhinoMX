@@ -210,9 +210,17 @@ ul{
     font-weight: bold;
     text-align: center;
 }
-.politicas p, ol, ul{
-    margin: 2em 15%;
-    text-align: left;
+.textus{
+    text-align: center;
+    margin: 0 10%;
+    font-size: 20px;
+}
+.imag img{
+    width: 200px;
+}
+.politicas{
+    padding: 2.5em 0;
+    border-bottom:1px solid #000 ;
 }
 
 
@@ -313,7 +321,8 @@ hr{
         overflow-x: hidden;
     }
     .barra-logo{
-        margin: 0 6%;
+        margin: -15% 6%;
+        padding: 2em 0;
         width: 200px;
     }
     #rhino{
@@ -336,6 +345,9 @@ hr{
     }
     .btn{
         position: fixed;
+    }
+    .imag img{
+        margin: 0 28%;
     }
 }
 .ocultar{
