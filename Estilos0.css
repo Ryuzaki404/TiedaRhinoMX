@@ -423,17 +423,23 @@ hr{
     main{
         overflow-x: hidden;
     }
+    header{
+        margin: 0;
+    }
     .Fil1 img, .Fil2 img{
         width: 150px;
         border-radius: 10px;
         
     }
     .barra-logo{
-        margin: 2em 10%;
-        width: 200px;
+        margin: 0 0;
+        width: 100%;
+        background-color: #f8e703;
+        padding: 0;
     }
     #rhino{
         width: 200px;
+        margin: 10% -30%;
     }
     .menu-ple ul{
         list-style: none;
@@ -452,6 +458,15 @@ hr{
     }
     .btn{
         position: fixed;
+    }
+    .oprapida{
+        width: 80px;
+        margin: 0 1.7em;
+    }
+    .ContenidoIn h3{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bolder;
     }
 }
 .ocultar{
