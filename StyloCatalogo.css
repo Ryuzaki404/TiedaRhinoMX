@@ -328,12 +328,18 @@ hr{
     main{
         overflow-x: hidden;
     }
-    .barra-logo{
-        margin: 1em 8%;
-        width: 200px;
+    header{
+        margin: 0;
     }
+    .barra-logo{
+        margin: 0 0;
+        width: 100%;
+        background-color: #f8e703;
+        padding: 0;
+    }   
     #rhino{
         width: 200px;
+        margin: 10% -30%;
     }
     .menu-ple ul{
         list-style: none;
