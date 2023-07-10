@@ -426,21 +426,22 @@ hr{
     header{
         margin: 0;
     }
-    .Fil1 img, .Fil2 img{
-        width: 150px;
-        border-radius: 10px;
-        
-    }
     .barra-logo{
         margin: 0 0;
         width: 100%;
+        height: 100px;
         background-color: #f8e703;
         padding: 0;
-    }
+    }   
     #rhino{
         width: 200px;
-        margin: 10% -30%;
+        margin: -1% -30%;
     }
+    .Fil1 img, .Fil2 img{
+        width: 150px;
+        border-radius: 10px; 
+    }
+
     .menu-ple ul{
         list-style: none;
     }
