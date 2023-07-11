@@ -109,10 +109,11 @@
             <div class="container contenidoContacto">
                 <div class="tituloContacto"><h1>Contacto</h1></div>
                 <p>A través de <span class="negritas">correo electrónico</span> en <a href="">info@rhinomaquinaria.com</a></p>
-                <p><span class="negritas">Teléfono: 5539893319</span></p>
+                <p><span class="negritas">Teléfono: 5558670389</span></p>
                 <p><span class="negritas">Whatsapp: <a href="https://wa.me/+525539893319">5539893319</a></span></p>
                 <p><span class="negritas">Nuestras oficinas:</span> Av. de los Doctores, esquina con plan de Ayala, 54980, Santiago Teyahualco, Tultepec Estado de México</p>
                 <p>Lunes a Viernes de 09:00 am a 6:00 pm</p>
+                <p>Sabados de 09:00 am a 2:00 pm</p>
                 <p>También nos puedes dejar un mensaje en el siguiente formulario, si tienes dudas de sobre la información que nos compartes, te invitamos a revisar a pie de página el aviso de privacidad de nuestra empresa. </p>
             </div>
        </section>
@@ -122,37 +123,40 @@
             <h2>Formulario de contacto</h2>
             <p class="titulos">Has una pregunta</p>
 
-            <div class="row">
-                <div class="col-md-3">
+            <form action="https://formsubmit.co/info@rhinomaquinaria.com" method="POST">
+                <div class="row">
+                    <div class="col-md-3">
 
-                </div>
+                    </div>
 
-                <div class="col gx-5">
-                    <div class="row f1">
-                        <div class="col rec1">
-                            <input type="text" placeholder="Nombre">
+                    <div class="col gx-5">
+                        <div class="row f1">
+                            <div class="col rec1">
+                                <input type="text" name="name" id="name" placeholder="Nombre">
+                            </div>
+                            <div class="col rec2">
+                                <input type="email" name="email" id="email" placeholder="Correo">
+                            </div>
                         </div>
-                        <div class="col rec2">
-                            <input type="text" placeholder="Correo">
+                        <div class="row f2 rec3">
+                            <input type="number" name="number" id="number" placeholder="Numero telefinico">
+                        </div>
+                        <div class="row f3 rec4">
+                            <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Comentarios"></textarea>
                         </div>
                     </div>
-                    <div class="row f2 rec3">
-                        <input type="text" placeholder="Numero telefinico">
-                    </div>
-                    <div class="row f3 rec4">
-                        <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
-                    </div>
-                </div>
 
-                <div class="col-md-3">
-                   
+                    <div class="col-md-3">
+                    
+                    </div>
+                    <div class="cont-boton">
+                        <input class="boton" type="submit" value="Enviar"></input>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
                 </div>
-                <div class="cont-boton">
-                    <button class="boton">Enviar</button>
-                </div>
-            </div>
-        </section>
-        <hr>    
+            </form>
+        </section>   
     </main>
 
     <footer>
@@ -165,7 +169,7 @@
                             <a href="contacto.html">Contacto</a>
                         </li>
                         <li>
-                            <a href="">Facturación</a>
+                            <a href="facturacion.html">Facturación</a>
                         </li>
                         <li>
                             <a href="formasdepago.html">Formas de pago</a>
@@ -191,7 +195,7 @@
                             <a href=""><strong>Email:</strong> ventas@rhinomaquinaria.com</a>
                         </li>
                         <li>
-                            <a href=""><strong>Telefono:</strong> 5539893319</a>
+                            <a href=""><strong>Telefono:</strong> 5558670389</a>
                         </li>
                         <li>
                             <a href=""><strong>whatsapp:</strong> 5539893319</a>

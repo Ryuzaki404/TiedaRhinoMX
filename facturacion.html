@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="shortcut icon" href="Recursos/favicon-32x32.png">
-    <link rel="stylesheet" href="StyloCatalogo.css">
+    <link rel="stylesheet" href="Stylofacturacion.css">
     <link rel="stylesheet" href="Recursos/fontello-a540fdbf/css/fontello.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>Catalogo</title>
+    <title>Contacto</title>
   </head>
 
   <body>
     <a href="https://wa.me/+525539893319" class="btn-wsp" target="_blank">
-        <i class="icon-whatsapp icono"></i>
-    </a>
+	    <i class="icon-whatsapp icono"></i>
+	</a>
     <div id="miDiv">
         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Menu</button>
 
@@ -54,7 +54,6 @@
             </div>
         </div>
     </div>
-
     <header>
         <section class="container barra-logo">
             <div class="bloque">
@@ -106,52 +105,82 @@
     </header>
 
     <main>
-        <div class="container">
-            <h1 id="tituloCatalogo" >Catalogo</h1>
-        </div>
-        <section class="container titulos"><!--CATEGORIAS-->
-            <h2>Consulta nuestras categorías</h2>
-            <div class="row Cat1">
-                <div class="col">
-                    <a href="amasadoras.html"><img src="Recursos/C1.png" class="card-img-top" alt="..."></a>
-                </div>
-                <div class="col">
-                    <a href="chafers.html"><img src="Recursos/C2.png" class="card-img-top" alt="..."></a>
-                </div>
-                <div class="col">
-                    <a href="basculas.html"><img src="Recursos/C3.png" class="card-img-top" alt="..."></a>
-                </div>
-                <div class="col">
-                    <a href="batidoras.html"><img src="Recursos/C4.png" class="card-img-top" alt="..."></a>
-                </div>
-                <div class="col">
-                    <a href="empacadoras.html"><img src="Recursos/C5.png" class="card-img-top" alt="..."></a>
-                </div>
-                <div class="col">
-                    <a href="panini.html"><img src="Recursos/C6.png" class="card-img-top" alt="..."></a>
-                </div>
+       <section class="container">
+            <div class="container contenidofactura">
+                <div class="tituloContacto"><h1>Facturación</h1></div>
+                <p>Puede facturar cualquiera de sus compras en nuestra web Rhino Maquinaria. Tiene 30 dias naturales a partir de la fecha de compra de su producto para poder facturar. </p>
+                <p>Para realizar su factura es necesario que tenga a la mano los siguientes datos:</p>
+                <ul>
+                    <li>Nombre completo</li>
+                    <li>RFC</li>
+                    <li>Uso de factura</li>
+                    <li>Forma de pago (tarjeta, para compras en nuestra web)</li>
+                    <li>Correo electrónico (mismo que ingresaste en la forma de pago) </li>
+                    <li>Código postal</li>
+                    <li>Régimen fiscal </li>
+                    <li>Articulos comprados</li>
+                </ul>
+                <p><strong>NOTA:</strong> Para expedir cualquier factura su constancia de situación fiscal debe estar actualizada.</p>
             </div>
-            <div class="row Cat2">
-                <div class="col">
-                    <a href="procesador.html"><img src="Recursos/C7.png" class="card-img-top" alt="..."></a>
+       </section>
+
+        <section class="container titulos"><!--FORMULARIO-->
+            <h2>Formulario de factura</h2>
+            <form action="https://formsubmit.co/info@rhinomaquinaria.com" method="POST">
+                <div class="row">
+                    <div class="col-md-3 ocultar">
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="row f1">
+                            <div id="rec1">
+                                <input type="text" name="name" id="name" placeholder="Nombre">
+                            </div>
+                        </div>
+                        <div class="row f1">
+                            <div id="rec1">
+                                <input type="text" name="RFC" id="RFC" placeholder="RFC">
+                            </div>
+                        </div>
+                        <div class="row f1">
+                            <div id="rec1">
+                                <input type="text" name="uso" id="uso" placeholder="Uso de factura">
+                            </div>
+                        </div>
+                        <div class="row f1">
+                            <div id="rec1">
+                                <input type="email" name="email" id="email" placeholder="Correo electrónico">
+                            </div>
+                        </div>
+                        <div class="row f1">
+                            <div id="rec1">
+                                <input type="number" name="CP" id="CP" placeholder="Codigo postal">
+                            </div>
+                        </div>
+                        <div class="row f1">
+                            <div id="rec1">
+                                <input type="text" name="regimen" id="regimen" placeholder="Regimen fiscal">
+                            </div>
+                        </div>
+                        <div class="row f1">
+                            <div id="rec1">
+                                <textarea name="Articulos" id="Articulos" cols="30" rows="5" placeholder="Articulos"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ocultar">
+                    
+                    </div>
+                    <div class="cont-boton">
+                        <input class="boton" type="submit" value="Enviar"></input>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
                 </div>
-                <div class="col">
-                    <a href="rebanadoras.html"><img src="Recursos/C8.png" class="card-img-top" alt="..."></a>
-                </div>
-                <div class="col">
-                    <a href="emplayadora.html"><img src="Recursos/C9.png" class="card-img-top" alt="..."></a>
-                </div>
-                <div class="col">
-                    <a href="molinos.html"><img src="Recursos/C10.png" class="card-img-top" alt="..."></a>
-                </div>
-                <div class="col">
-                    <a href="sierras.html"><img src="Recursos/C11.png" class="card-img-top" alt="..."></a>
-                </div>
-                <div class="col">
-                    <a href="turbolicuadores.html"><img src="Recursos/C12.png" class="card-img-top" alt="..."></a>
-                </div>
-            </div>
-        </section>
+            </form>
+        </section>   
     </main>
 
     <footer>

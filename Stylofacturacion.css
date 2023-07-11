@@ -231,10 +231,10 @@ ul{
     width: 1150px;
 }
 .tituloContacto h1{
-    margin: 2em 20%;
+    margin: 2em 18%;
 }
 
-.contenidoContacto{
+.contenidofactura{
     width: 650px;
     margin: 4em 25%;
     font-size: 20px;
@@ -242,92 +242,34 @@ ul{
     justify-content: center;
     align-content: center;
 }
+.contenidofactura ul{
+    text-align: left;
+}
 .negritas{
     font-weight: bolder;
 }
 
 /*FORMULARIO*/
-.rec1{
-    background-image: url('Recursos/usuario.png');
-    background-repeat: no-repeat;
-    background-position: 4px center;
-    background-size: 20px;
-    background-color: rgb(234, 237, 239);
-    display: flex;
-    align-items: center;
-    max-width: 50%;
-    padding-left: 28px;
-    height: 40px;
-    border: 1px solid rgb(234, 237, 239);
-    border-radius: 3px;
-    margin-bottom: -5em;
-}
-.rec1 input {
-    width: 200%;
-    font-size: 0.9em;
-    border: none;
-    background-color: rgb(234, 237, 239);
-}
-.rec1 input:focus {
-    outline: none;
-}
 
-.rec2{
-    background-image: url('Recursos/correo-electronico.png');
-    background-repeat: no-repeat;
-    background-position: 4px center;
-    background-size: 20px;
-    background-color: rgb(234, 237, 239);
-    display: flex;
-    align-items: center;
-    max-width: 50%;
-    padding-left: 28px;
-    height: 40px;
-    border: 1px solid rgb(234, 237, 239);
-    border-radius: 3px;
-}
-.rec2 input {
-    width: 200%;
-    font-size: 0.9em;
-    border: none;
-    background-color: rgb(234, 237, 239);
-    
-}
-.rec2 input:focus {
-    outline: none;
-}
-
-.rec3{
-    background-image: url('Recursos/llamada-telefonica.png');
-    background-repeat: no-repeat;
-    background-position: 4px center;
-    background-size: 20px;
-    background-color: rgb(234, 237, 239);
-    display: flex;
-    align-items: center;
-    width: 105%;
-    padding-left: 28px;
-    height: 40px;
-    border: 1px solid rgb(234, 237, 239);
-    border-radius: 3px;
-    flex-grow: initial;
-}
-.rec3 input {
-    width: 200%;
-    font-size: 0.9em;
-    border: none;
-    background-color: rgb(234, 237, 239);;
-    
-}
-.rec3 input:focus {
-    outline: none;
-}
 .f1{
-    gap: 1em;
-    height: 3.90em;
+    margin: 0 0;
+}
+#rec1{
+    margin: 0 0;
+}
+#rec1 input {
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border: none;
+    background-color: rgb(234, 237, 239);
+}
+#rec1 input:focus {
+    outline: none;
 }
 
 textarea{
+    width: 100%;
     background-color: rgb(234, 237, 239);
     border: solid 1px rgb(234, 237, 239);
 }
@@ -429,6 +371,12 @@ hr{
         width: 200px;
         margin: 10% -30%;
     }
+    .titulos h2{
+        margin: 3em 0 0 0;
+    }
+    .titulos form{
+        margin: 1em 0;
+    }
     .menu-ple ul{
         list-style: none;
     }
@@ -450,13 +398,14 @@ hr{
     .tituloContacto{
         margin: 0 -30%;
     }
-    .contenidoContacto{
+    .contenidofactura{
         width: 100%;
         margin: 2em 2%;
     }
     .boton{
         margin: 0 38%;
     }
+
 }
 .ocultar{
     display: block;
